@@ -1,3 +1,41 @@
+main {
+  width: 70%;
+  float: left;
+}
+
+aside {
+  width: 30%;
+  float: left;
+}
+
+/* clear the float after the main and aside elements */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* apply the clearfix class to the parent element */
+body {
+  background-color: #675D50;
+  color: #F3DEBA;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+a {
+  color: #FFB100
+}
+
+h1 {
+  color: #54B435;
+}
+
+p {
+  color: #54B435;
+}
+
 .App {
   text-align: center;
 }
@@ -14,7 +52,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #675D50;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,7 +63,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #F3DEBA;
 }
 
 @keyframes App-logo-spin {

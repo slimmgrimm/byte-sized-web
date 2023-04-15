@@ -1,3 +1,13 @@
+Scroll to the bottom to see React documentation. The rest of this is my todo list to keep track of my ideas.
+
+As of now we have a STATIC WEBSITE but I want to turn this into a single page app(SPA) using React and Node. Currently we have an App.js which spins up our HTML. Next up:
+Turn the HTML of App.js into components 
+When the main page of components is complete, we can create new articles easily
+From this point just create articles for content
+Create content sections for GIT/HTML/CSS/JS
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
