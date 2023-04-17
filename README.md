@@ -1,9 +1,10 @@
 Scroll to the bottom to see React documentation. The rest of this is my todo list to keep track of my ideas.
 
 # Project Tasks
-- Create blog folder for articles 
-- Add node and redirects for new webpages
-- Create components for adding new blog posts easily
+- [x] Convert homepage HTML into components
+- [ ] Create blog folder for articles 
+- [ ] Add node and redirects for new webpages
+- [ ] Create components for adding new blog posts easily
 
 
 
