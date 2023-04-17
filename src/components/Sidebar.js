@@ -5,10 +5,9 @@ function Sidebar() {
     <aside>
         <h2>Other Articles</h2>
         <ul>
-			<li><a href="#">Article One</a></li>
-			<li><a href="#">Article Two</a></li>
-			<li><a href="#">Article Three</a></li>
-			<li><a href="#">Article Four</a></li>
+            <li><button>Article One</button></li>
+            <li><button>Article Two</button></li>
+            <li><button>Article Three</button></li>
 		</ul>
       </aside>
     )
