@@ -1,11 +1,44 @@
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin: 2em;
+  padding: 2em;
+  border: 5px solid blue;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: 5px solid red;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin: 3rem;
+  padding: 1em;
+  border: 3px solid orange;
+}
+
+
 main {
-  width: 70%;
+  width: 65%;
   float: left;
+  border: 3px solid yellow;
 }
 
 aside {
-  width: 30%;
+  width: 25%;
   float: left;
+  border: 3px solid magenta;
+}
+
+.logo {
+  border-radius: 2rem;
+  height: 10vmin;
 }
 
 /* clear the float after the main and aside elements */
@@ -19,8 +52,9 @@ aside {
 body {
   background-color: #675D50;
   color: #F3DEBA;
-  margin: 0;
-  padding: 0;
+  margin: 1em;
+  padding: 1em;
+  border: 1em;
   overflow: hidden;
 }
 
@@ -43,34 +77,4 @@ p {
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #675D50;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #F3DEBA;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

@@ -1,10 +1,15 @@
-Scroll to the bottom to see React documentation. The rest of this is my todo list to keep track of my ideas.
-
 # Project Tasks
 - [x] Convert homepage HTML into components
+- [ ] Customize CSS to look better than a 90s geocities site
 - [ ] Create blog folder for articles 
-- [ ] Add node and redirects for new webpages
+- [ ] Add node.js backend
 - [ ] Create components for adding new blog posts easily
+
+
+
+
+
+
 
 
 
