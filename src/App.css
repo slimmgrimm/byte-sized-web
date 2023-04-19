@@ -1,80 +1,40 @@
-.title {
+
+
+header {
   display: flex;
   flex-direction: row;
-  align-items: flex-end;
-  margin: 2em;
-  padding: 2em;
-  border: 5px solid blue;
-}
-
-.hero {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  border: 5px solid red;
+  background-color: #1A120B;
+  padding-left: 10%;
+  padding-right: 10%;
+  justify-content: space-between;
 }
 
 nav {
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
   align-items: flex-end;
-  margin: 3rem;
-  padding: 1em;
-  border: 3px solid orange;
 }
 
-
-main {
-  width: 65%;
-  float: left;
-  border: 3px solid yellow;
+.warmups {
+  background-color: white;
 }
-
-aside {
-  width: 25%;
-  float: left;
-  border: 3px solid magenta;
+.reactSection {
+  background-color: #D5CEA3;
+  padding-left: 6em;
 }
-
-.logo {
-  border-radius: 2rem;
-  height: 10vmin;
-}
-
-/* clear the float after the main and aside elements */
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* apply the clearfix class to the parent element */
-body {
-  background-color: #675D50;
-  color: #F3DEBA;
-  margin: 1em;
-  padding: 1em;
-  border: 1em;
-  overflow: hidden;
+.cssSection {
+  background-color: white;
+  padding-left: 12em;
 }
 
 a {
-  color: #FFB100
+  color: #0081C9;
 }
 
-h1 {
+h1, h2 {
   color: #54B435;
 }
 
 p {
-  color: #54B435;
-}
-
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  color: #3C2A21;
 }

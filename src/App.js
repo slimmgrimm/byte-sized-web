@@ -1,15 +1,17 @@
 import React from 'react';
 import './App.css';
 import Header from './components/Header.js';
-import Main from './components/Main.js';
-import Sidebar from './components/Sidebar.js';
+import Warmups from './components/Warmups.js'
+import ReactSection from './components/ReactSection.js';
+import CssSection from './components/CssSection.js';
 
 function App() {
   return (
     <div className="App">
-    <Header />
-    <Main />
-    <Sidebar /> 
+      <Header />
+      <Warmups />
+      <ReactSection />
+      <CssSection />
     </div>
   );
 }
