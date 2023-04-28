@@ -6,55 +6,44 @@ import {
   Link
 } from "react-router-dom";
 import './App.css';
-import Header from './components/Header.js';
-import Warmups from './components/Warmups.js'
-import ReactSection from './components/ReactSection.js';
-import CssSection from './components/CssSection.js';
+// import Navbar from './components/Navbar.js'
+import Warmups from './pages/warmups.js'
+import Home from './pages/home.js'
+import CssPage from './pages/css.js';
+import ReactPage from './pages/react.js';
+
+
 
 function App() {
   return (
     <Router>
-    <div>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/about">About</Link>
-          </li>
-          <li>
-            <Link to="/cheatsheet">Users</Link>
-          </li>
-        </ul>
-      </nav>
-      <div className="App">
-      <Header />
-      <Warmups />
-      <ReactSection />
-      <CssSection />
-    </div>
-        <Routes>
-          <Route path="/about" element={ <About/> } />
-          <Route path="/cheatsheet" element={ <Cheatsheet /> } />
+
+        <Navbar />
+        <main>
+         <Routes>
           <Route path="/" element={ <Home/> } />
-        </Routes>
-      </div>
+          <Route exact path="/warmups" element={ <Warmups/> } />
+          <Route path="/react" element={ <ReactPage /> } />
+          <Route path="/css" element={ <CssPage />} />
+         </Routes>
+        </main>
     </Router>
    
   );
 }
 
-function Home() {
-  return <h2>Home</h2>;
-}
-
-function About() {
-  return <h2>About</h2>;
-}
-
-function Cheatsheet() {
-  return <h2>Cheatsheet</h2>;
+function Navbar() {
+  return (
+      <nav>
+          <h2>Byte Sized Web</h2>
+          <ul>
+              <li><Link to="/">Home</Link></li>
+              <li><Link to="/warmups">Warm ups</Link></li>
+              <li><Link to="/react">React</Link></li>
+              <li><Link to="/css">CSS</Link></li>
+          </ul>
+      </nav>
+  )
 }
 
 export default App;
