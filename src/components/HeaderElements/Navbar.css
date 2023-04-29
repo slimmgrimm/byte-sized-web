@@ -1,0 +1,13 @@
+
+.header-nav > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.header-nav li {
+    margin: 0.2rem;
+}
+
+
