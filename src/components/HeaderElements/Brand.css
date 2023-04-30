@@ -1,3 +1,10 @@
-h2 {
+.brand-header {
     width: 12rem;
+}
+
+@media (max-width: 800px) {
+    .brand-header{
+        font-size: 26px;
+        width: 9rem;
+    }
 }
