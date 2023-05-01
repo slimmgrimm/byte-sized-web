@@ -38,7 +38,11 @@ pre {
   padding: 1rem;
   background-color: black;
   color: greenyellow;
-  font-size: 16px;
+  overflow: auto;
+}
+
+::-webkit-scrollbar {
+  opacity: 0%;
 }
 
 article {
