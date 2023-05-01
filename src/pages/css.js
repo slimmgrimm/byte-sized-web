@@ -9,6 +9,11 @@ function CssPage() {
           <li>Fonts</li>
           <li>UI/UX</li>
         </ul>
+        <pre>
+        <code>{`
+          body {background: red;}
+        `}</code>
+        </pre>
       </article>
     )
 }
