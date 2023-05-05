@@ -4,7 +4,7 @@ function Home() {
     return (
         <article>
         <h1>Welcome to the Home screen. Test a link for me!</h1>
-        <form onSubmit={e => {
+        {/* <form onSubmit={e => {
              e.preventDefault();
              //function addToArticleArray();
             }} 
@@ -21,7 +21,7 @@ function Home() {
             <textarea rows='20' cols='60' id='text' name='text'></textarea>
 
             <button type='submit'>Submit</button>
-        </form>
+        </form> */}
         </article>
     )
 }
