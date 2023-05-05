@@ -2,17 +2,36 @@ article {
     background-color: #0E8388;
     border-radius: 25px;
     box-shadow: 10px 5px 5px #2C3333;
-    padding: 3rem;
     margin-inline: 15%;
     margin-top: 10%;
+    padding: 0rem;
+    padding-bottom: 2rem;
     flex-wrap: wrap;
   }
 
+.article-header {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.article-text {
+  margin-inline: 10%;
+}
+
+.article-code {
+  margin-inline: 15%
+}
 @media (max-width: 800px) {
     article {
       margin-inline: 0%;
       margin-top: 0%;
       border-radius: 0px;
       box-shadow: none;
+    }
+    .article-header {
+      border-radius: 0px;
     }
   }

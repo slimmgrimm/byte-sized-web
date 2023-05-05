@@ -4,7 +4,7 @@ import './Brand.css'
 function Brand() {
     return (
       < >
-        <h2 className='brand-header'>Byte Sized Web</h2>
+        <h1 className='brand-header'>Byte Sized Web</h1>
       </>
   )
 }
