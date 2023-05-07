@@ -1,34 +1,45 @@
 import React from 'react'
 import Article from '../components/ArticleElements/Article.js'
+import './html.css'
 
-function HtmlPage () {
+function HtmlPage() {
     return (
         <div>
-            <Article 
-                title='What is HTML?'
-                text='HyperText Markup Language defines the structure of webpages. HTML elements are the basic building blocks of a webpage and are indicated by HTML tags. Here is a HTML element bound by <h1> tags: '
-                code='<h1>Title of Section</h1>'
-                
-            />
             <Article
-                title='HTML Boilerplate'
-                text='Boilerplate code is the barebones template for getting a webpage to display on your screen. There are only 3 tags you need to get started: <html>, <head>, and <body> '
-                code='This will be great when I figure out multiple lines'
+                title='What is HTML?'
+                text='HyperText Markup Language defines the structure of a webpage. An HTML element is the basic building block of a webpage and is indicated by HTML tags. Here is a element bound by <h1> tags: '
+                code='<h1>Title of Section</h1>'
+
             />
+            <article className='html-boilerplate html-article'>
+                <header className='html-header'>
+                    <h1 className='html-title'>HTML Boilerplate</h1>
+                </header>
+                <section className='html-section'>
+                    <p>Boilerplate code is a template of the bare minimum code that you need in order to share a page across the web.
+                        The first tag in the document will declare what type of data is stored within so we use the <strong>html</strong> tag.
+                        The second tag includes files, scripts, and styles for formatting your webpage within the <strong>head</strong> tag.
+                        Finally the third tag you need contains all the info you want to display within the <strong>body</strong> tag.
+                        The basic structure looks like this but in a working webpage there will be tons of code in between those tags!
+                    </p>
+                    <pre className='code-block'>
+                        <code>
+                            {`<html>    `}<br />
+                            {`   <head> `}<br />
+                            {/* {`          `}<br /> */}
+                            {`   </head>`}<br />
+                            {`   <body> `}<br />
+                            {/* {`          `}<br /> */}
+                            {`   </body>`}<br />
+                            {`</html>   `}<br />
+                        </code>
+                    </pre>
+                </section>
+            </article>
+
         </div>
- 
+
     )
 }
 
 export default HtmlPage
-
-// <article className='html-page'>
-// <h1>HTML</h1>
-// <p>HTML or HyperText Markup Language defines the structure and content of webpages. An HTML element is like a basic lego piece of a webpage. </p>
-// <pre>
-//     <code>
-//         {` <h1>Title of Section</h1> `}<br/>
-//         {` <p>This is where some description goes.</p>`}
-//     </code>
-// </pre>
-// </article>

@@ -1,22 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 
-a {
-  color: #b1df20;
-}
-
-h1, h2 {
-  color: #CBE4DE;
-}
 
 body {
   font-family: 'Muli', sans-serif;
   color: rgba(0, 0, 0, 0.8);
-  background-color: #2E4F4F;
+  background-color: #ebebeb;
   font-weight: 400;
   line-height: 1.58;
   letter-spacing: -.003em;
   font-size: 20px;
+}
+
+a {
+  font-weight: 600;
 }
 
 h1 {
@@ -29,25 +26,12 @@ h1 {
   -webkit-font-smoothing: antialiased;
 }
 
-pre {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-inline: 10%;
-  margin-block: 1rem; 
-  padding: 1rem;
-  background-color: black;
-  color: greenyellow;
-  overflow: auto;
-  font-size: 16px;
-}
-
 ::-webkit-scrollbar {
   opacity: 0%;
 }
 
 article {
-  background-color: #0E8388;
+  background-color: #ffffff;
   border-radius: 25px;
   box-shadow: 10px 5px 5px #2C3333;
   padding: 3rem;

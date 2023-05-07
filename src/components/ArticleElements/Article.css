@@ -1,5 +1,5 @@
 article {
-    background-color: #0E8388;
+    background-color: #ffffff;
     border-radius: 25px;
     box-shadow: 10px 5px 5px #2C3333;
     margin-inline: 15%;
@@ -8,8 +8,11 @@ article {
     padding-bottom: 2rem;
     flex-wrap: wrap;
   }
-
+.article-title {
+  color: #ffffff;
+}
 .article-header {
+  background-color: #f06529;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   display: flex;
@@ -22,7 +25,15 @@ article {
 }
 
 .article-code {
-  margin-inline: 15%
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-inline: 15%;
+  padding-left: 2rem;
+  padding-block: 1rem;
+  background-color: #000000;
+  color: greenyellow;
+  font-size: medium;
 }
 @media (max-width: 800px) {
     article {

@@ -3,5 +3,6 @@ header {
     padding-inline: 10%;
     align-items: center;
     justify-content: space-between;
-    background-color: #2C3333;
+    background-color: #000000;
+    color: #ffffff;
 }
