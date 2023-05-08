@@ -1,6 +1,7 @@
 import React from 'react'
 import Article from '../components/ArticleElements/Article.js'
 import './html.css'
+import boilerPlate from '../images/boilerplate.svg'
 
 function HtmlPage() {
     return (
@@ -22,18 +23,9 @@ function HtmlPage() {
                         Finally the third tag you need contains all the info you want to display within the <strong>body</strong> tag.
                         The basic structure looks like this but in a working webpage there will be tons of code in between those tags!
                     </p>
-                    <pre className='code-block'>
-                        <code>
-                            {`<html>    `}<br />
-                            {`   <head> `}<br />
-                            {/* {`          `}<br /> */}
-                            {`   </head>`}<br />
-                            {`   <body> `}<br />
-                            {/* {`          `}<br /> */}
-                            {`   </body>`}<br />
-                            {`</html>   `}<br />
-                        </code>
-                    </pre>
+                    <div className='img-container'>
+                        <img className='article-img' src={boilerPlate} alt='Boilerplate code' />
+                    </div>
                 </section>
             </article>
 

@@ -6,6 +6,7 @@ function Article(props) {
     const {subtitle} = props
     const {text} = props
     const {code} = props
+    const {img} = props
 
     return(
         <article>
@@ -17,9 +18,11 @@ function Article(props) {
             <h3 className='article-subtitle'> {subtitle} </h3>
             <p className='article-text'> {text} </p>
 
-            <pre className='article-code'>
+            <img className='article-img' src={img} />
+            
+            {/* <pre className='article-code'>
                 <code> {code} </code>
-            </pre>
+            </pre> */}
 
         </article>
     )
