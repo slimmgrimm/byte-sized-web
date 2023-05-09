@@ -29,6 +29,13 @@ function HtmlPage() {
                 </section>
             </article>
 
+            <Article 
+                title='Testing React'
+                text='Is this working yet?'
+                src={boilerPlate}
+            
+            />
+
         </div>
 
     )
