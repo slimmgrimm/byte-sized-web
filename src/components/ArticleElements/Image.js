@@ -5,11 +5,14 @@ function Image(props) {
     const {src} = props
 
     return (
-        <img
-            src={src}
-            width={100}
-            height={100}
-        />
+        <figure className='image-container'>
+            <img className='article-image'
+                src={src}
+                width={100}
+                height={'auto'}
+            />
+        </figure>
+        
     )
 }
 
