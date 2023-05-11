@@ -8,7 +8,7 @@ function Article(props) {
 
     return(
         <article>
-
+            
             <ArticleHeader {...props}/>
             <ArticleSection {...props}/>
             <Image {...props}/>            

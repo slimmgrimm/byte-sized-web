@@ -3,9 +3,10 @@ import './ArticleHeader.css'
 
 function ArticleHeader(props) {
     const { title } = props
+    const { headerStyle } = props
 
     return (
-        <header className='article-header'>
+        <header className={headerStyle}>
             <h2 className='article-title'> {title} </h2>
         </header>
     )

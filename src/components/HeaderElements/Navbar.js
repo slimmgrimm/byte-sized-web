@@ -9,6 +9,7 @@ function Navbar() {
                 <li><NavLink to="/">Home</NavLink></li>
                 {/* <li><NavLink to="/warmup">Warmup</NavLink></li> */}
                 <li><NavLink to="/html">HTML</NavLink></li>
+                <li><NavLink to="/git">git</NavLink></li>
                 {/* <li><NavLink to="/react">React</NavLink></li>
                 <li><NavLink to="/css">CSS</NavLink></li> */}
             </ul>
