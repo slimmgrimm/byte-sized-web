@@ -1,4 +1,12 @@
 .git-header {
     background-color: #f34f29;
     color: #3d2d00;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+@media (max-width: 800px) {
+    .git-header {
+        border-radius: 0px;
+    }
 }

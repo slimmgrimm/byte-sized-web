@@ -1,3 +1,11 @@
 .html-header {
     background-color: #f06529;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.css-header {
+    background-color: #264de4;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
